@@ -43,7 +43,7 @@ module Day02
     end
   end
 
-  private def load_input(file = "inp/day02.txt")
+  private def load_input(file = "day02/input.txt")
     File.read(file).split(",").map(&.to_i)
   end
 end
